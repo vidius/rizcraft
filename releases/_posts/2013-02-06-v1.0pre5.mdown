@@ -2,6 +2,6 @@
 layout: nil
 title: the public debut
 version: 1.0pre5
-download_url: /dl/Rizcraft-1.0pre5.zip
+download_url: http://goo.gl/aZQyJ
 ---
 First public release. Woefully incomplete. Sorry about that.
