@@ -1,0 +1,47 @@
+p {
+  margin: 0.5em 0;
+}
+
+#title,
+#content,
+#credits {
+  margin: 16px auto;
+  max-width: 600px;
+  overflow: hidden;
+}
+
+#title {
+}
+
+#content {
+}
+
+#content > section {
+  margin: 8px;
+  padding: 8px;
+  overflow: hidden;
+}
+
+#content > section + section {
+/*  margin-top: 8px;
+  padding-top: 8px;
+*/}
+
+#credits > * {
+  margin: 8px;
+}
+
+.news-item > header > .title {
+  display: inline;
+  font-size: large;
+}
+
+.news-item > header > .info {
+  display: inline;
+  font-size: small;
+  font-style: italic;
+}
+
+.news-item > .content {
+  margin-left: 1em;
+}

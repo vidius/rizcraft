@@ -1,0 +1,12 @@
+---
+permalink: /:categories/:year/:month/:day/:title
+auto: true
+rdiscount:
+  extensions: [smart]
+
+title: Rizcraft
+author:
+  name: Eris
+  email: eris.discord@gmail.com
+
+production_url: http://erisdiscord.github.com/rizcraft

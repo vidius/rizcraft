@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "MineCrafter 2.0";
+  src: url("../fonts/minecrafter_20.eot");
+  src: url("../fonts/minecrafter_20.woff") format("woff"),
+       url("../fonts/minecrafter_20.ttf") format("truetype"),
+       url("../fonts/minecrafter_20.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  font-size: 11pt;
+  
+/*  background: black url("../textures/blocks/netherbrick.png");*/
+  background: #222;
+  color: white;
+}
+
+em,
+cite {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+#content,
+#credits {
+  border-radius: 4px;
+  color: black;
+  background: white;
+}
+
+#title {
+  height: 88px;
+  background: url("../logo/rizcraft8x.png") left no-repeat;
+}
+
+#title * {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+#content {
+  text-align: justify;
+}
+
+#content > section > h1 {
+/*  float: right;*/
+  clear: both;
+  margin: 0 0 16px 0;
+  padding: 16px 32px 4px 32px;
+  
+  font-family: "MineCrafter 2.0";
+  font-size: 24px;
+  -moz-font-smoothing: none;
+  -webkit-font-smoothing: none;
+  font-smoothing: none;
+
+  color: white;
+  text-shadow: 4px 4px black, -1px 0px black, 1px 0px black, 0px -1px black, 0px 1px black;
+
+  border-radius: 4px;
+  background: url("../textures/blocks/grass_side.png") top left repeat-x,
+              url("../textures/blocks/dirt.png") top left;
+}
+
+#content > section:target > h1 {
+  background-image: url("../textures/blocks/snow_side.png"),
+                    url("../textures/blocks/dirt.png");
+}
+
+#credits {
+  text-align: center;
+  font-style: italic;
+}
+
+.imgur-album {
+  border-radius: 4px;
+}

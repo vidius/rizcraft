@@ -1,0 +1,42 @@
+---
+layout: default
+title: Main
+permalink: /
+---
+<section id="about">
+  <h1>About</h1>
+  <div class="fig" style="margin:16px;float:right">
+    <img src="textures/blocks/goldenRail_powered.gif" alt="A powered minecart rail with chasing lights." title="The texture that started it all.">
+    <img src="textures/blocks/furnace_front_lit.gif" alt="A lit furnace with a pulsing blue glow.">
+  </div>
+
+  <p>This texture pack started when snapshot 13w02a simultaneously introduced support for arbitrary texture pack resolutions and animated textures. I was immediately inspired to create animated powered rail and furnace textures.</p>
+
+  <p>I <a href="https://twitter.com/erisdev/status/290764679016497153" title="Wherein I tweet at the Mojangstas and the Mojangstas tweet back.">showed my work to Jeb and Dinnerbone</a>; Jeb retweeted it and the community's response was overwhelmingly positive. So here I am, making a texture pack.</p>
+</section>
+      
+<section id="download">
+  <h1>Download</h1>
+  {% assign latest=site.categories.releases[0] %}
+  <p>The latest version is {{ latest.version }}. <a href="{{ latest.download_url }}" title="Download version {{ latest.version }}">Get it here</a>.</p>
+  <p>Older versions can be found under <a href="#releases">releases</a>.</p>
+</section>
+      
+<section id="releases">
+  <h1>Releases</h1>
+  {% for release in site.categories.releases %}
+  <article class="news-item" id="release_{{ release.version }}">
+    <header>
+      <h2 class="title"><a href="{{ release.download_url }}">{{ release.version }}</a></h2>
+      <p class="info">
+        <time datetime="{{ release.date | date_to_xmlschema }}">{{ release.date | date_to_long_string }}</time> — {{release.title}}</p>
+    </header>
+    <div class="content">{{ release.content }}</div>
+  </article>
+  {% endfor %}
+</section>
+      
+<section id="gallery">
+  <h1>Gallery</h1>
+  <iframe class="imgur-album" width="100%" height="550" seamless src="http://imgur.com/a/mfolI/embed"></iframe>
+</section>

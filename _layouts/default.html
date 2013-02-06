@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title }}</title>
+
+    <style type="text/css">
+      @import url("stylesheets/reset.css");
+      @import url("stylesheets/layout.css");
+      @import url("stylesheets/theme.css");
+    </style>
+
+    <link rel="alternate" type="application/atom+xml" href="/feed.atom" title="Atom Feed">
+
+  </head>
+  <body>
+    <header id="title">
+      <h1>Rizcraft</h1>
+    </header>
+    <div id="content">
+      {{ content }}
+    </div>
+    <footer id="credits">
+      <p>Graphics by me, <a href="http://twitter.com/erisdev">@erisdev</a>.
+      <p><a href="http://www.dafont.com/minecrafter.font">MineCrafter</a> font by BadMangos.
+      <p>Page generated at <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date_to_xmlschema }}</time>.
+    </footer>
+  </body>
+</html>
