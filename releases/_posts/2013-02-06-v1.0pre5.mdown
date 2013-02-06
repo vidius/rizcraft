@@ -1,0 +1,7 @@
+---
+layout: nil
+title: the public debut
+version: 1.0pre5
+download_url: /dl/Rizcraft-1.0pre5.zip
+---
+First public release. Woefully incomplete. Sorry about that.
