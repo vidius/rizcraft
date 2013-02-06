@@ -30,6 +30,7 @@ permalink: /
       <h2 class="title"><a href="{{ release.download_url }}">{{ release.version }}</a></h2>
       <p class="info">
         <time datetime="{{ release.date | date_to_xmlschema }}">{{ release.date | date_to_long_string }}</time> — {{release.title}}</p>
+      <p class="info">(<a href="{{ release.download_url }}+">download stats</a>)</p>
     </header>
     <div class="content">{{ release.content }}</div>
   </article>
