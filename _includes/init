@@ -1,0 +1,15 @@
+{% capture __ignore__ %}
+  <!-- set BASE_PATH from _config.yml if running on GitHub Pages -->
+  {% if site.safe %}
+    {% assign BASE_PATH = site.BASE_PATH %}
+  {% else %}
+    {% assign BASE_PATH = "" %}
+  {% endif %}
+  
+  <!-- concatenate site title with page title if one is set -->
+  {% if page.title %}
+    {% capture full_title %}{{ page.title }} &#x2725; {{ site.title }}{% endcapture %}
+  {% else %}
+    {% capture full_title %}{{ site.title }}{% endcapture %}
+  {% endif %}
+{% endcapture %}{% assign __ignore__ = nil %}

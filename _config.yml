@@ -11,3 +11,5 @@ author:
   twitter: erisdev
 
 production_url: http://erisdiscord.github.com/rizcraft
+
+BASE_PATH: /rizcraft

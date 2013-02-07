@@ -1,12 +1,7 @@
 <!DOCTYPE html>
+{% include init %}
 <html prefix="og: http://ogp.me/ns#">
   <head>
-    {% if page.title %}
-    {% capture full_title %}{{ page.title }} &#x2725; {{ site.title }}{% endcapture %}
-    {% else %}
-    {% capture full_title %}{{ site.title }}{% endcapture %}
-    {% endif %}
-
     <meta charset="utf-8">
 
     <!-- creator and site metadata -->
