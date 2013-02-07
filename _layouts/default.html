@@ -7,9 +7,15 @@
     {% capture full_title %}{{ site.title }}{% endcapture %}
     {% endif %}
     
+    <!-- creator and site metadata -->
     <meta name="twitter:creator" content="@{{ site.author.twitter }}">
+    <meta property="og:site_name" content="{{ site.title }}">
 
+    <!-- media type -->
     <meta name="twitter:card" content="summary">
+    <meta property="og:type" content="website">
+    
+    <!-- page metadata -->
     <meta property="og:url" content="{{ site.production_url }}{{ page.url }}">
     <meta property="og:title" content="{{ full_title }}">
     <meta property="og:image" content="{{ site.production_url }}/logo/pack.png">
