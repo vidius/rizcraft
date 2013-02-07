@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta name="twitter:creator" content="@{{ site.author.twitter }}">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="og:url" content="{{ site.production_url }}{{ page.url }}">
+    <meta name="og:title" content="{{ page.title }}">
+    <meta name="og:image" content="{{ site.production_url }}/logo/pack.png">
+    <meta name="og:image:width" content="128">
+    <meta name="og:image:height" content="128">
+    <meta name="og:description" content="{{ page.description }}">
+
     <title>{{ page.title }}</title>
 
     <style type="text/css">
