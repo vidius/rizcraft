@@ -31,6 +31,13 @@ p {
   margin: 8px;
 }
 
+#twitter {
+  float: right;
+  width: 220px;
+  max-width: 50%;
+  margin: 0 0 8px 16px;
+}
+
 .news-item > header > .title {
   display: inline;
   font-size: large;
