@@ -1,0 +1,15 @@
+---
+layout: nil
+title: revisitations
+version: 1.0pre8
+download_url: http://goo.gl/Iwmcd
+---
+New tall grass texture plus some minor touch-ups and fixes.
+
+* Added textures for vertical dispensers and droppers.
+* Fixed End stone not actually showing the custom texture; learned that texture names are case sensitive.
+* Added pre-colored grass to sidegrass for unfancy people
+* Tweaked the contrast of grass.
+* Lightened outlines on diamond and emerald ore so they don't look as pasted-on.
+* Added shading to the spider web texture so it doesn't just suck a whole bunch.
+* Changed bedrock to a darker version of the normal stone texture, for now.
