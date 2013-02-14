@@ -1,0 +1,10 @@
+---
+layout: nil
+title: fiya wata
+version: 1.0pre9
+download_url: http://goo.gl/UKI5J
+---
+Textures for all things fire and water. Not a very big update, but as of yet this is the update that has taken the most effort by far.
+
+* Added weird, wiggly, hand-drawn textures for still and flowing water; may replace them later.
+* Added procedurally generated, hand-tweaked textures for fire, lava and nether portal blocks.
