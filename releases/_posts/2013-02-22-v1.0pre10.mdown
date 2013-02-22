@@ -1,0 +1,16 @@
+---
+layout: nil
+title: utterly enchanting
+version: 1.0pre10
+download_url: http://goo.gl/2bW1G
+---
+Great new textures, including the torch I've been putting off forever.
+
+* Added obsidian textures to go with your fancy Nether portals.
+* Added enchanting table with a fancy as heck book.
+* Added bookshelves. I have several variants ready for CTM support, but that's waiting for an official 1.5 release.
+* Added cloth textures. Sorry, they're all the same except for the color.
+* Added ice in the laziest way possible. It's just inverted still water.
+* Added quartz block and pillar. No chiseled texture yet!
+* Added emerald block!
+* Added that friggin' torch finally.
