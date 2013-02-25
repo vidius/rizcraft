@@ -83,9 +83,17 @@ strong {
 }
 
 .box {
-  border-radius: 4px;
+  border-radius: 8px;
   color: black;
   background: white;
+  
+  border-style: solid;
+  border-width: 8px;
+  
+  -moz-border-image: url("../textures/gui-border.png") 8 repeat;
+  -webkit-border-image: url("../textures/gui-border.png") 8 repeat;
+  -o-border-image: url("../textures/gui-border.png") 8 repeat;
+  border-image: url("../textures/gui-border.png") 8 fill repeat;
 }
 
 .imgur-album {
