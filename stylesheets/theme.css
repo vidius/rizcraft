@@ -8,6 +8,17 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Rizcraft 16x";
+  src: url("../fonts/rizcraft_16x.eot");
+  src: url("../fonts/rizcraft_16x.woff") format("woff"),
+       url("../fonts/rizcraft_16x.ttf") format("truetype"),
+       url("../fonts/rizcraft_16x.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   font-family: "Helvetica", sans-serif;
   font-size: 11pt;
