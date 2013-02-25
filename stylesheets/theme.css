@@ -37,13 +37,6 @@ strong {
   font-weight: bold;
 }
 
-#content,
-#credits {
-  border-radius: 4px;
-  color: black;
-  background: white;
-}
-
 #title {
   height: 88px;
   background: url("../logo/rizcraft8x.png") left no-repeat;
@@ -87,6 +80,12 @@ strong {
 #credits {
   text-align: center;
   font-style: italic;
+}
+
+.box {
+  border-radius: 4px;
+  color: black;
+  background: white;
 }
 
 .imgur-album {
