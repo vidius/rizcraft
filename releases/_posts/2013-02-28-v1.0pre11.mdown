@@ -1,0 +1,16 @@
+---
+layout: nil
+title: connections
+version: 1.0pre11
+download_url: http://goo.gl/TiZhj
+---
+Beginnings of MCPatcher (mostly CTM and custom colors) support, GUI textures and more.
+
+* MCPatcher features
+  * bookshelf alternates
+  * top and bottom greebles for quartz pillars
+  * unique wood fence texture
+  * grass, redstone, water color maps
+* generic GUI textures (but not containers or inventories)
+* newly-required animation definitions for all animated textures
+* removed custom fonts until I can figure out how character widths are determined in vanilla
