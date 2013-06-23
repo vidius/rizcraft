@@ -1,0 +1,21 @@
+---
+layout: nil
+title: resourcefulness
+version: 1.0pre12
+download_url: http://goo.gl/6vgqJ
+---
+Bringing the pack up to spec for Minecraft 1.6.
+
+* brushed off the inch of dust that had settled on the project
+* updated to new Resource Pack format
+  * CTM support is gone until that crap's up to date
+  * **breaks compatibility with Minecraft 1.5 and older**
+* tweaked grass block colors
+* added textures for mycelium
+* added foliage colors (currently the same as grass, mostly)
+* replaced cheesy wigglewater with a procedural texture
+  * made the water a little more clear
+  * flowing water still needs an update, oops
+* forgot something important (most likely)
+
+As per the new Resource Pack spec, this thing goes in the `resourcepacks` folder, *not* `texturepacks`.
