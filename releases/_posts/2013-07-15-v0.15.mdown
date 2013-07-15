@@ -4,7 +4,7 @@ title: the chest to end all chests
 version: 0.15
 download_url: http://goo.gl/kOZeC
 ---
-This release marks a few things, including the partial return of MCPatcher support. It also marks the moment that I finally got sick of wonk-ass "1.0pre" releases and decided to retroactively switch to the more standard 'X.Y.Z` style.
+This release marks a few things, including the partial return of MCPatcher support. It also marks the moment that I finally got sick of wonk-ass "1.0pre" releases and decided to retroactively switch to the more standard `X.Y.Z` style.
 
 Versions 0.13 and 0.14 were eaten by a grue.
 
