@@ -1,0 +1,21 @@
+---
+layout: nil
+title: the chest to end all chests
+version: 0.15
+download_url: http://goo.gl/kOZeC
+---
+This release marks a few things, including the partial return of MCPatcher support. It also marks the moment that I finally got sick of wonk-ass "1.0pre" releases and decided to retroactively switch to the more standard 'X.Y.Z` style.
+
+Versions 0.13 and 0.14 were eaten by a grue.
+
+* added log-end textures for all log types
+* added pretty gravel
+* added random "glitch" textures for bedrock if MCPatcher is installed
+* added creepy, gritty as heck ender chest
+* the return of quartz pillar and bookshelf connected textures
+* reinstated birch leaves texture as a simple copy of the oak texture
+* brightened obsidian and obsidian-based textures slightly
+* enchanting table now has a red cloth, like the default
+* added a hastily put together custom title screen panorama that will be changed later
+
+I've been pretty indecisive about a number of things in this release, so I may have forgotten to list some of the things that have changed. I don't think I like MCPatcher very much.
