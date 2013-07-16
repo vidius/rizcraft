@@ -52,7 +52,8 @@ strong {
   text-align: justify;
 }
 
-#content > section > h1 {
+#content > section > h1,
+.popup > h1 {
 /*  float: right;*/
   clear: both;
   margin: 0 0 16px 0;
@@ -77,6 +78,11 @@ strong {
                     url("../textures/blocks/dirt.png");
 }
 
+.popup > h1 {
+  background-image: url("../textures/blocks/mycelium_side.png"),
+                    url("../textures/blocks/dirt.png");
+}
+
 #credits {
   text-align: center;
   font-style: italic;
@@ -94,6 +100,16 @@ strong {
   -webkit-border-image: url("../textures/gui-border.png") 8 repeat;
   -o-border-image: url("../textures/gui-border.png") 8 repeat;
   border-image: url("../textures/gui-border.png") 8 fill repeat;
+}
+
+.popup {
+  box-shadow: 0 2px 10px 5px rgba(0, 0, 0, 0.5);
+}
+
+.content h2 {
+  margin-top: 1em;
+  font-size: large;
+  font-weight: bold;
 }
 
 .imgur-album {
