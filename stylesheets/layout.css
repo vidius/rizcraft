@@ -11,8 +11,16 @@ ol > li {
   margin: 0.2em 0;
 }
 
+li > *:only-child {
+  margin: 0;
+}
+
 ul {
   list-style: square outside;
+}
+
+ol {
+  list-style: decimal outside;
 }
 
 #title,
