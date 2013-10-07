@@ -1,1 +1,1 @@
-exclude = "{$exclude,scripts/*.{map,js}}"
+exclude = "{$exclude,_site,scripts/*.{map,js}}"
